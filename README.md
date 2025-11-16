@@ -29,7 +29,7 @@
 
   当你已经获取到一些史莱姆区块较多的种子，你可以将种子的列表放入`list.txt`,然后将文件放入[check_single_seed](https://github.com/ldqm1/SlimeFarmLocator/tree/main/check_single_seed),并运行start.bat,程序会将有效方块面积大于14500的种子和大于15000的种子放在check_single_seed目录下。
 
-  
+  这部分程序使用了这个项目[slimefinder](https://github.com/Nukelawe/slimefinder),我添加了一个python脚本使它可以批量计算。
 
   图片的名字格式为`有效方块数_种子_中心坐标.png`。
 
@@ -79,5 +79,7 @@
 
 
 ### 联系方式 ###
+
 邮箱：`2857167966@qq.com`
+
 [B站](https://b23.tv/VtuDBI6)
