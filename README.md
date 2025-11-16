@@ -18,6 +18,8 @@
   下载[程序](https://github.com/ldqm1/SlimeFarmLocator/blob/main/findslime_cuda/main7.cu),使用编译命令 
   
   ``` nvcc -O3 -use_fast_math  -Xcompiler "/O2 /arch:AVX2"  -maxrregcount=64 -o findslime.exe main7.cu ```
+
+  ~~如果对编译命令有疑问，欢迎问ai，因为我也不懂这个编译命令是否有兼容性问题~~
   
   进行编译。
   
@@ -26,6 +28,8 @@
   ```findslime.exe <起始种子> <运行次数> ```
   
   随后会在此目录生成`result.csv`文件，可以将此文件放入findslime目录并使用`python data.py`来把csv文件转为sqlite数据库，运行结束会自动删除csv文件。
+
+  参考运行速度：17000 seed/s（4060），45000 seed/s（4070ti），如果你有别的显卡并且运行成功，也可以和我进行交流。
 
   当你已经获取到一些史莱姆区块较多的种子，你可以将种子的列表放入`list.txt`,然后将文件放入[check_single_seed](https://github.com/ldqm1/SlimeFarmLocator/tree/main/check_single_seed),并运行start.bat,程序会将有效方块面积大于14500的种子和大于15000的种子放在check_single_seed目录下。
 
@@ -77,6 +81,10 @@
 | 66 | 7 |
 | 67 | 1 |
 
+
+### 目标 ###
+
+  预计在2025年内筛够1000亿个种子，尽管这些种子只占全部的1/281。如果有其他人正在干和我一样的事情，欢迎联系我进行交流讨论。
 
 ### 联系方式 ###
 
